@@ -3,7 +3,7 @@ from address import number
 num = number()
 try:
     ip_address = input("Enter address: ")
-    print(num.getAddress(int(ip_address)))
+    print(num.getAddress(float(ip_address)))
     for x in ip_address:
         print(x)
 except:
