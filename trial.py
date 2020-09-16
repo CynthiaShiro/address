@@ -7,7 +7,7 @@ def getrate(amount):
         return amount * 0.98
     else:
         print("Transaction complete!!")
-def validate_pin(pin):
+def Validate_pin(pin):
     for x in pin:
         if x.isalpha():
             return False
@@ -19,7 +19,7 @@ def validate_pin(pin):
         return False
         
 PIN = input("Enter a PIN: ")
-validate_pin(PIN) 
+Validate_pin(PIN) 
 c = camelcase.CamelCase()
 txt = "start the transaction!!!"
 print(c.hump(txt))
